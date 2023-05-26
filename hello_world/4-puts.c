@@ -1,5 +1,6 @@
-int main() {
-	puts("Programming is like building a multilingual puzzle"); 
+int main()
+{
+	puts("Programming is like building a multilingual puzzle");
 	getchar();
-	return 0;
+	return (0);
 }
