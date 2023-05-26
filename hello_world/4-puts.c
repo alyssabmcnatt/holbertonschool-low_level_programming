@@ -1,6 +1,6 @@
 int main()
 {
 	puts("Programming is like building a multilingual puzzle");
-	getchar();
+	putchar();
 	return (0);
 }
