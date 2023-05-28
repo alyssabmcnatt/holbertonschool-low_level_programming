@@ -1,2 +1,7 @@
 #!/bin/bash
-gcc -o cisfun $CFILE
+int main(void)
+{
+gcc $CFILE -o cisfun
+
+return (0);
+}
