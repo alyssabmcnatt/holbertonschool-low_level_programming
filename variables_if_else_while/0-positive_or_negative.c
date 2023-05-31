@@ -13,14 +13,17 @@ int main(void)
 	if (n > 0)
 	{
 		puts("is positive")
+		return (0);
 	}
 	if (n  == 0 )
 	{
 		puts("is zero")
+		return (0);
 	}
 	if (n < 0)
 	{
 		puts("is negative")
+		return (0);
 	}
 	return (0);
 
