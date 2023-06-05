@@ -2,7 +2,6 @@
 
 /**
  * print_numbers - Print the numbers since 0 up to 9
- * @x: The numbers sinve 0 up to 9
  * Return: The numbers since 0 up to 9
  */
 
