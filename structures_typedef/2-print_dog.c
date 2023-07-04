@@ -4,7 +4,7 @@
 
 /**
  * print_dog - prints all the data of a dog
- * @d: a dpg structure
+ * @d: a dog structure
  * Return: nothing
  */
 
