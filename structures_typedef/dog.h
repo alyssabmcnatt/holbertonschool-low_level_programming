@@ -5,7 +5,7 @@
  * struct dog - Dog attributes
  * @name: the name of the dog.
  * @age: the age of the dog.
- * @ownder: the owner of the dog.
+ * @owner: the owner of the dog.
  * Desrciption: the attributes of a dog.
  */
 
