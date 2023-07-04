@@ -3,10 +3,10 @@
 
 /**
  * struct dog - Dog attributes
- * @name: the name of the dog.
- * @age: the age of the dog.
- * @owner: the owner of the dog.
- * Desrciption: the attributes of a dog.
+ * @name: The name of the dog.
+ * @age: The age of the dog.
+ * @owner: The owner of the dog.
+ * Description: The attributes of a dog.
  */
 
 struct dog
@@ -17,7 +17,7 @@ struct dog
 };
 
 /**
- * dog_t - typedef for dog structure
+ * dog_t - Typedef for dog structure
  */
 
 typedef struct dog dog_t;
