@@ -1,4 +1,5 @@
 #include "main.h"
+#include "_putchar.c"
 
 /**
  * print_binary - prints the binary equivalent of a decimal number
