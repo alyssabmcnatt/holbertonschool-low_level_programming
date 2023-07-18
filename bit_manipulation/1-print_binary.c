@@ -1,9 +1,9 @@
 #include "main.h"
-#include "_putchar.c"
 
 /**
  * print_binary - prints the binary equivalent of a decimal number
  * @n: number to print in binary
+ * _putchar: ...
  */
 
 void print_binary(unsigned long int n)
