@@ -23,7 +23,7 @@ listint_t *create_new_node(int n)
 /**
  * insert_nodeint_at_index - inserts a nose at index
  * @head: pointer to the first element
- * @idx: index to the position the new node is to be inserted 
+ * @idx: index to the position the new node is to be inserted
  * @n: the data of the new node created
  * return: address of the new node
  */
