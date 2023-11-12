@@ -1,5 +1,7 @@
-#ifndef MORE_LINKED
-#define MORE_LINKED
+#ifndef MORE_LINKS
+#define MORE_LINKS
+
+#include <stddef.h>
 
 size_t print_listint(const listint_t *h);
 size_t listint_len(const listint_t *h);
