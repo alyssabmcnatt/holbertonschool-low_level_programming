@@ -4,7 +4,7 @@
 /**
  * create_new_node - creates a new node
  * @n: data of the node
- * return: pointer to the node
+ * Return: pointer to the node
  */
 
 listint_t *create_new_node(int n)
@@ -25,7 +25,7 @@ listint_t *create_new_node(int n)
  * @head: pointer to the first element
  * @idx: index to the position the new node is to be inserted
  * @n: the data of the new node created
- * return: address of the new node
+ * Return: address of the new node
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {

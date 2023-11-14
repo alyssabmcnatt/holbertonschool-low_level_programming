@@ -5,7 +5,7 @@
  * delete_nodeint_at_index - deletes a node of a list
  * @head: pointer to the beginning of the list
  * @index: index of the node to be freed
- * return: 1 if success, -1 if it failed
+ * Return: 1 if success, -1 if it failed
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
