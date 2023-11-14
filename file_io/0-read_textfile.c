@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 /**
- * read_testfile - reads a text file
+ * read_textfile - reads a text file
  * @filename: name of file
  * @letters: number of letters it should read
  * Return: actaul number of letters it could read
@@ -36,7 +36,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		free(buffer);
 		return (0);
 	}
-	lenw= write(STDOUT_FILENO, buffer, lenr);
+	lenw = write(STDOUT_FILENO, buffer, lenr);
 	free(buffer);
 	if (lenr != lenw)
 		return (0);

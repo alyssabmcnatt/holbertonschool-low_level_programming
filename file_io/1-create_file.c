@@ -6,7 +6,7 @@
 #include <stdlib.h>
 
 /**
- * creat_file - creates a file
+ * create_file - creates a file
  * @filename: name of file
  * @text_content: content wrote in file
  * Return: 1 if success, -1 if fails
