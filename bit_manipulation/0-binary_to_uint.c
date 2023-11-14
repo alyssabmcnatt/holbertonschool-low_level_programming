@@ -4,7 +4,7 @@
 /**
  * binary_to_uint - a program that converts binary numbers
  * @b: a char pointer to a str
- * return: the converted decimal
+ * Return: the converted decimal
  */
 
 unsigned int binary_to_uint(const char *b)
