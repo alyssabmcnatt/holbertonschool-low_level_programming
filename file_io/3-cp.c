@@ -23,7 +23,7 @@ int main(int argc, char *argv[])
 		dprintf(STDERR_FILENO, "%s", "Usage: cp file_from file_to\n");
 		exit(97);
 	}
-	src = opem(argv[1], O_RDONLY);
+	src = open(argv[1], O_RDONLY);
 	check_IO_stat(src, -1, argv[1], 'O');
 	dest = open(argv[2], O_WRONLY | O_CREAT | O_TRUNC, mode);
 	check_IO_stat(dest, -1, argv[2], 'W');
@@ -38,7 +38,7 @@ int main(int argc, char *argv[])
 	}
 	close_src = close(src);
 	check_IO_stat(close_src, src, NULL, 'C');
-	close_dest = close(cest);
+	close_dest = close(dest);
 	check_IO_stat(close_dest, dest, NULL, 'C');
 	return (0);
 }
@@ -55,7 +55,7 @@ void check_IO_stat(int stat, int fd, char *filename, char mode)
 {
 	if (mode == 'C' && stat == -1)
 	{
-		dprintf(STDERr_FILENO, "Error; Can't close fd %d\n", fd);
+		dprintf(STDERR_FILENO, "Error; Can't close fd %d\n", fd);
 		exit(100);
 	}
 	else if (mode == 'O' && stat == -1)
