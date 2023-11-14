@@ -55,7 +55,7 @@ void check_IO_stat(int stat, int fd, char *filename, char mode)
 {
 	if (mode == 'C' && stat == -1)
 	{
-		dprintf(STDERR_FILENO, "Error; Can't close fd %d\n", fd);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
 		exit(100);
 	}
 	else if (mode == 'O' && stat == -1)
