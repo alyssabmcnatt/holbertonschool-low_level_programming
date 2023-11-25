@@ -11,6 +11,7 @@ int hash_table_set(hash_table_t *ht, const char *key, const char *value);
 /**
  * hash_table_set - add or update the key/value
  * @ht: pointer to hashtable
+ * @key: key
  * @value: associated with key
  * Return: 1 if success, 0 if fail
  */
