@@ -1,7 +1,7 @@
 #include "hash_tables.h"
-#include <stddef.h>
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 /**
  * hash_table_set - add or update the key/value
