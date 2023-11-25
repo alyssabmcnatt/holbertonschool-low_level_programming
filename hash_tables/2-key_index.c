@@ -3,6 +3,7 @@
 /**
  * key_index - get index
  * @key: get index of the key
+ * @size: size
  * Return: index of the key
  */
 
