@@ -3,6 +3,8 @@
 #include <stdlib.h>
 #include <string.h>
 
+int hash_table_set(hash_yable_t *ht, const char *key, const char *value);
+
 /**
  * hash_table_set - add or update the key/value
  * @ht: pointer to hashtable
